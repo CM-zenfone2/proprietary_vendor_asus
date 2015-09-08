@@ -153,8 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libwilhelm.so:system/lib/arm/libwilhelm.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libz.so:system/lib/arm/libz.so \
     vendor/asus/mofd-common/proprietary/lib/arm/linker:system/lib/arm/linker \
-    vendor/asus/mofd-common/proprietary/etc/asound.conf:system/etc/asound.conf \
-    vendor/asus/mofd-common/proprietary/etc/route_criteria.conf:system/etc/route_criteria.conf \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_probes.xml:system/etc/tuning/audio/layout_probes.xml \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_topology.xml:system/etc/tuning/audio/layout_topology.xml \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_types.xml:system/etc/tuning/audio/layout_types.xml \
@@ -735,5 +733,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libcontextarbitor.so:system/lib/libcontextarbitor.so \
     vendor/asus/mofd-common/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
     vendor/asus/mofd-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
+    vendor/asus/mofd-common/proprietary/lib/libvirtualsensors.so:system/lib/libvirtualsensors.so \
+    vendor/asus/mofd-common/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
+    vendor/asus/mofd-common/proprietary/etc/wifi/bcmdhd_zx551ml.cal:system/etc/wifi/bcmdhd_zx551ml.cal \
     vendor/asus/mofd-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin
